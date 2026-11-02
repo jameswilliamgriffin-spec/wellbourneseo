@@ -1,0 +1,155 @@
+{
+  "status": "Proposed; no baseline checks run",
+  "questions": [
+    {
+      "id": "WB-AI-001",
+      "question": "Where can I find a private residential rehab in the Midlands for alcohol addiction?",
+      "cluster": "Choosing a clinic",
+      "cohort": "non_branded"
+    },
+    {
+      "id": "WB-AI-002",
+      "question": "Which private drug and alcohol rehab clinics are there in Warwickshire?",
+      "cluster": "Choosing a clinic",
+      "cohort": "non_branded"
+    },
+    {
+      "id": "WB-AI-003",
+      "question": "Which smaller private residential rehab clinics are there in the Midlands?",
+      "cluster": "Choosing a clinic",
+      "cohort": "non_branded"
+    },
+    {
+      "id": "WB-AI-004",
+      "question": "Which private residential rehab clinics in the Midlands offer private bedrooms?",
+      "cluster": "Choosing a clinic",
+      "cohort": "non_branded"
+    },
+    {
+      "id": "WB-AI-005",
+      "question": "Which private rehab clinics near Birmingham treat cocaine addiction?",
+      "cluster": "Choosing a clinic",
+      "cohort": "non_branded"
+    },
+    {
+      "id": "WB-AI-006",
+      "question": "Where can I find private residential alcohol rehab near Birmingham?",
+      "cluster": "Local discovery",
+      "cohort": "non_branded"
+    },
+    {
+      "id": "WB-AI-007",
+      "question": "What residential alcohol rehab options are available for someone living in Coventry?",
+      "cluster": "Local discovery",
+      "cohort": "non_branded"
+    },
+    {
+      "id": "WB-AI-008",
+      "question": "What private residential alcohol rehab options are available for someone living in Solihull?",
+      "cluster": "Local discovery",
+      "cohort": "non_branded"
+    },
+    {
+      "id": "WB-AI-009",
+      "question": "Where can someone from Leamington Spa go for residential alcohol rehab?",
+      "cluster": "Local discovery",
+      "cohort": "non_branded"
+    },
+    {
+      "id": "WB-AI-010",
+      "question": "What private residential alcohol rehab clinics are there in Kenilworth?",
+      "cluster": "Local discovery",
+      "cohort": "non_branded"
+    },
+    {
+      "id": "WB-AI-011",
+      "question": "Where can I get a medically supervised alcohol detox in the UK at short notice?",
+      "cluster": "Detox and admissions",
+      "cohort": "non_branded"
+    },
+    {
+      "id": "WB-AI-012",
+      "question": "Where can I find private residential alcohol detox near Birmingham?",
+      "cluster": "Detox and admissions",
+      "cohort": "non_branded"
+    },
+    {
+      "id": "WB-AI-013",
+      "question": "What is the difference between alcohol detox and alcohol rehab?",
+      "cluster": "Detox and admissions",
+      "cohort": "non_branded"
+    },
+    {
+      "id": "WB-AI-014",
+      "question": "Which private rehabs in the UK offer same-day or next-day admission?",
+      "cluster": "Detox and admissions",
+      "cohort": "non_branded"
+    },
+    {
+      "id": "WB-AI-015",
+      "question": "Which private residential rehab clinics in the Midlands offer 28-day programmes?",
+      "cluster": "Treatment and practical decisions",
+      "cohort": "non_branded"
+    },
+    {
+      "id": "WB-AI-016",
+      "question": "How long is alcohol rehab, and how is the length of stay decided?",
+      "cluster": "Treatment and practical decisions",
+      "cohort": "non_branded"
+    },
+    {
+      "id": "WB-AI-017",
+      "question": "What kind of therapy approaches do private residential rehabs in the Midlands use?",
+      "cluster": "Treatment and practical decisions",
+      "cohort": "non_branded"
+    },
+    {
+      "id": "WB-AI-018",
+      "question": "Compare the aftercare support offered by private residential rehabs in the Midlands.",
+      "cluster": "Treatment and practical decisions",
+      "cohort": "non_branded"
+    },
+    {
+      "id": "WB-AI-019",
+      "question": "How confidential are private rehab clinics in the UK really?",
+      "cluster": "Treatment and practical decisions",
+      "cohort": "non_branded"
+    },
+    {
+      "id": "WB-AI-020",
+      "question": "How can I help my partner find residential treatment for alcohol addiction?",
+      "cluster": "Family and informed enquiry",
+      "cohort": "non_branded"
+    },
+    {
+      "id": "WB-AI-021",
+      "question": "Can I contact a private alcohol rehab clinic about treatment for a family member?",
+      "cluster": "Family and informed enquiry",
+      "cohort": "non_branded"
+    },
+    {
+      "id": "WB-AI-022",
+      "question": "What should I ask a private alcohol rehab clinic before agreeing to treatment?",
+      "cluster": "Family and informed enquiry",
+      "cohort": "non_branded"
+    },
+    {
+      "id": "WB-AI-023",
+      "question": "Where is The Wellbourne Clinic, and what treatment does it provide?",
+      "cluster": "Branded accuracy",
+      "cohort": "branded_accuracy"
+    },
+    {
+      "id": "WB-AI-024",
+      "question": "Who can receive treatment at The Wellbourne Clinic, and how long can they stay?",
+      "cluster": "Branded accuracy",
+      "cohort": "branded_accuracy"
+    },
+    {
+      "id": "WB-AI-025",
+      "question": "What medical support and aftercare does The Wellbourne Clinic provide?",
+      "cluster": "Branded accuracy",
+      "cohort": "branded_accuracy"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.cache/
+.env*
+.DS_Store
+.report-access.json
+
+.vercel/
+# Local source-audit tooling depends on private parent project evidence.
+scripts/prepare_data.py
+tests/evidence.test.mjs

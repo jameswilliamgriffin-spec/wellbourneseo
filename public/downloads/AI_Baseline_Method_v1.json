@@ -1,0 +1,34 @@
+{
+  "version": "WB-AI-v1",
+  "date": "2026-10-27",
+  "models": {
+    "chat_gpt": "gpt-4.1-2025-04-14",
+    "gemini": "gemini-2.5-flash",
+    "claude": "claude-sonnet-4-5-20250929"
+  },
+  "question_sha256": "c6cf52d03572ea8e0c21e218d8846cfb5d81f8c5980a3ed0a59d436733723937",
+  "context": "I am in the United Kingdom. Please answer in British English.",
+  "max_output_tokens": 2048,
+  "temperature": 0.2,
+  "web_search": true,
+  "forced_search": [
+    "chat_gpt",
+    "claude"
+  ],
+  "country_parameter": {
+    "chat_gpt": "GB",
+    "claude": "GB",
+    "gemini": "Prompt context only; API has no documented country parameter"
+  },
+  "mode": "LLM Responses live API; not consumer-interface scraping",
+  "samples_per_pair": 1,
+  "expected_pairs": 75,
+  "stop_threshold_usd": 12.0,
+  "budget_note": "Stop before next batch if realised cost plus $1 reserve per queued call reaches threshold; not a vendor-enforced per-call cap. No automatic retries.",
+  "no_recurring_tracking": true,
+  "model_choice": "Available web-enabled stable snapshots / established models for repeatability and controlled spend; not claimed to be current consumer defaults. Gemini alias may change; retain actual returned model.",
+  "sources": [
+    "https://docs.dataforseo.com/v3/ai_optimization-llm_responses-overview/",
+    "https://dataforseo.com/pricing/ai-optimization/llm-responses"
+  ]
+}

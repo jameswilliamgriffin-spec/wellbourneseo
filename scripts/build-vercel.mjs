@@ -1,0 +1,14 @@
+import {mkdir, rm, cp, writeFile} from 'node:fs/promises';
+import {fileURLToPath} from 'node:url';
+import {resolve} from 'node:path';
+const root = fileURLToPath(new URL('../',import.meta.url));
+const output = resolve(root,'.vercel/output');
+const fn = resolve(output,'functions/report.func');
+await rm(output,{recursive:true,force:true});
+await mkdir(fn,{recursive:true});
+await cp(resolve(root,'dist'),resolve(fn,'private'),{recursive:true});
+await cp(resolve(root,'server/report-access.mjs'),resolve(fn,'report-access.mjs'));
+await cp(resolve(root,'server/vercel-handler.mjs'),resolve(fn,'index.mjs'));
+await writeFile(resolve(fn,'.vc-config.json'),JSON.stringify({runtime:'nodejs24.x',handler:'index.mjs',launcherType:'Nodejs',maxDuration:10},null,2));
+await writeFile(resolve(output,'config.json'),JSON.stringify({version:3,routes:[{src:'/(.*)',dest:'/report'}]},null,2));
+console.log('Vercel output ready: every route uses the password-protected function; no public static report files.');
