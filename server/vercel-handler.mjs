@@ -15,7 +15,7 @@ export function createHandler({config, root = fileURLToPath(new URL('./private/'
     res.setHeader('Cache-Control','no-store');
     res.setHeader('X-Robots-Tag','noindex, nofollow, noarchive');
     res.setHeader('X-Content-Type-Options','nosniff');
-    res.setHeader('Referrer-Policy','no-referrer');
+    res.setHeader('Referrer-Policy','same-origin');
     res.setHeader('X-Frame-Options','DENY');
     if (!gate) {res.statusCode=503;return res.end('Report access is not configured. Please contact the report administrator.');}
     try {

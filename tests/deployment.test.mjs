@@ -17,7 +17,7 @@ async function request(handler,url,{body,cookie='',method=body===undefined?'GET'
  await handler(req,res);return r;
 }
 test('serverless deployment fails closed without private environment configuration',async()=>{
- const r=await request(createHandler({config:'{}'}),'/reports/2026-10/overview');assert.equal(r.status,503);assert(!r.body.includes('637'));
+ const r=await request(createHandler({config:'{}'}),'/reports/2026-10/overview');assert.equal(r.status,503);assert(!r.body.includes('637'));assert.equal(r.headers['Referrer-Policy'],'same-origin');
 });
 test('serverless sessions survive cold starts; every asset is protected and private paths remain inaccessible',async()=>{
  const root=await mkdtemp(join(tmpdir(),'wellbourne-access-'));
